@@ -465,7 +465,7 @@ export default function Home() {
                             action="#"
                             method="GET"
                           >
-                            <label for="search-field" class="sr-only">
+                            <label htmlFor="search-field" className="sr-only">
                               Search
                             </label>
                             <div className="relative w-full text-gray-400 focus-within:text-gray-600">

@@ -442,110 +442,114 @@ export default function Home() {
                 <div className="py-6 md:justify-between lg:border-t lg:border-gray-200">
                   <div className="grid grid-cols-12 grid-rows-3 gap-4">
                     <div className="col-span-2">
-                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
                         Button
                       </button>
                     </div>
                     <div className="col-span-2 col-start-3">
-                      <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
                         Button
                       </button>
                     </div>
                     <div className="col-span-3 row-start-2">
                       <label
-                        for="first_name"
-                        class="block mb-2 text-sm font-medium"
+                        htmlFor="first_name"
+                        className="block mb-2 text-sm font-medium"
                       >
                         Type
                       </label>
                       <input
                         type="text"
                         id="first_name"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="John"
                         required
                       ></input>
                     </div>
                     <div className="col-span-3 col-start-4 row-start-2">
                       <label
-                        for="first_name"
-                        class="block mb-2 text-sm font-medium"
+                        htmlFor="first_name"
+                        className="block mb-2 text-sm font-medium"
                       >
                         Name
                       </label>
                       <input
                         type="text"
                         id="first_name"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="John"
                         required
                       ></input>
                     </div>
                     <div className="col-span-3 col-start-7 row-start-2">
                       <label
-                        for="first_name"
-                        class="block mb-2 text-sm font-medium"
+                        htmlFor="first_name"
+                        className="block mb-2 text-sm font-medium"
                       >
                         Owner
                       </label>
                       <input
                         type="text"
                         id="first_name"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="John"
                         required
                       ></input>
                     </div>
                     <div className="col-span-3 col-start-10 row-start-2">
-                      <label class="relative inline-flex items-center cursor-pointer ml-10 mt-10">
-                        <input type="checkbox" value="" class="sr-only peer" />
+                      <label className="relative inline-flex items-center cursor-pointer ml-10 mt-10">
+                        <input
+                          type="checkbox"
+                          value=""
+                          className="sr-only peer"
+                        />
                         <div
-                          class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4  
+                          className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4  
                         rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white 
                         after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-600"
                         ></div>
-                        <span class="ml-3 text-sm font-medium ">
+                        <span className="ml-3 text-sm font-medium ">
                           Uder Advisor
                         </span>
                       </label>
                     </div>
                     <div className="col-span-3 row-start-3">
                       <label
-                        for="first_name"
-                        class="block mb-2 text-sm font-medium"
+                        htmlFor="first_name"
+                        className="block mb-2 text-sm font-medium"
                       >
                         Current value
                       </label>
                       <input
                         type="text"
                         id="first_name"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="John"
                         required
                       ></input>
                     </div>
                     <div className="col-span-3 col-start-4 row-start-3">
                       <label
-                        for="first_name"
-                        class="block mb-2 text-sm font-medium"
+                        htmlFor="first_name"
+                        className="block mb-2 text-sm font-medium"
                       >
                         Income per Anuum
                       </label>
                       <input
                         type="text"
                         id="first_name"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                         placeholder="John"
                         required
                       ></input>
                     </div>
                     <div className="col-span-2 col-start-9 row-start-3">
-                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
+                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
                         Button
                       </button>
                     </div>
                     <div className="col-span-2 col-start-11 row-start-3">
-                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
+                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-10">
                         Button
                       </button>
                     </div>

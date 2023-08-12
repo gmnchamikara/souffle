@@ -527,32 +527,34 @@ export default function Home() {
             <div className="m-5 rounded-md">
               <div className="grid grid-cols-5 grid-rows-1 gap-4">
                 <div className="col-span-2 bg-white  rounded-md py-6">
-                  <p class="font-semibold">Family Details</p>
+                  <p className="font-semibold">Family Details</p>
                 </div>
                 <div className="col-span-3 col-start-3 bg-white  rounded-md">
-                  <p class="font-semibold">Advise Relationship</p>
+                  <p className="font-semibold">Advise Relationship</p>
                 </div>
               </div>
             </div>
             <div className="m-5 rounded-md">
               <div className="grid grid-cols-7 grid-rows-12 gap-2">
                 <div className="col-span-2 row-span-3 bg-white py-6 rounded-md">
-                  <p class="font-semibold">Income</p>
+                  <p className="font-semibold">Income</p>
                 </div>
                 <div className="col-span-2 row-span-3 col-start-1 row-start-4 bg-white py-6 rounded-md">
-                  <p class="font-semibold">Assets</p>
+                  <p className="font-semibold">Assets</p>
                 </div>
                 <div className="col-span-2 row-span-3 col-start-3 row-start-1 bg-white rounded-md">
-                  <p class="font-semibold">Expenses</p>
+                  <p className="font-semibold">Expenses</p>
                 </div>
                 <div className="col-span-2 row-span-3 col-start-3 row-start-4 bg-white rounded-md">
-                  <p class="font-semibold">Liabilities</p>
+                  <p className="font-semibold">Liabilities</p>
                 </div>
                 <div className="col-span-3 row-span-6 col-start-5 row-start-1 bg-white rounded-md">
-                  <p class="font-semibold">Goal and Objectives</p>
+                  <p className="font-semibold">Goal and Objectives</p>
                 </div>
                 <div className="col-span-4 row-span-6 row-start-7 bg-white py-6 rounded-md">
-                  <p class="font-semibold">Family and Lifestyle Protection</p>
+                  <p className="font-semibold">
+                    Family and Lifestyle Protection
+                  </p>
                 </div>
                 <div className=" col-span-3 row-span-6 col-start-5 row-start-7 bg-white rounded-md">
                   7
